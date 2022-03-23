@@ -6,7 +6,7 @@
 .container {
     width: 700px;
     background-color: rgb(235, 232, 232);
-    padding: 30px;
+    padding: 0 20px 20px;
 }
 .row, .header, .footer {
     display: flex;
@@ -18,9 +18,10 @@
 img {
     height: 200px;
 }
-.header {
-    justify-content: center;
+.header {    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: rgb(68, 67, 67);
+    justify-content: center;
     padding: 20px;
 }
 .first-row-imgs {
@@ -37,4 +38,5 @@ img {
 }
 .footer {
     justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
 }
